@@ -1,0 +1,117 @@
+Arguments: 
+  /usr/local/Cellar/node/11.13.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js add @types/golden-layout
+
+PATH: 
+  /Users/nearl/anaconda3/envs/pyllisto_dev/bin:/Users/nearl/anaconda3/bin:/Users/nearl/anaconda3/condabin:/usr/local/opt/ruby/bin:/Users/nearl/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fgolden-layout: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:66058:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:129541:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:130513:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1142:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "ipygoldenlayout",
+    "version": "0.1.0",
+    "description": "IPyWidget wrapper for the Golden Layout JavaScript package",
+    "keywords": [
+      "jupyter",
+      "jupyterlab",
+      "jupyterlab-extension",
+      "widgets"
+    ],
+    "files": [
+      "lib/**/*.js",
+      "dist/*.js"
+    ],
+    "homepage": "https://github.com/nmearl/ipygoldenlayout",
+    "bugs": {
+      "url": "https://github.com/nmearl/ipygoldenlayout/issues"
+    },
+    "license": "BSD-3-Clause",
+    "author": {
+      "name": "Nicholas Earl",
+      "email": "contact@nicholasearl.me"
+    },
+    "main": "lib/index.js",
+    "types": "./lib/index.d.ts",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nmearl/ipygoldenlayout"
+    },
+    "scripts": {
+      "build": "npm run build:lib && npm run build:nbextension",
+      "build:labextension": "npm run clean:labextension && mkdirp ipygoldenlayout/labextension && cd ipygoldenlayout/labextension && npm pack ../..",
+      "build:lib": "tsc",
+      "build:nbextension": "webpack -p",
+      "build:all": "npm run build:labextension && npm run build:nbextension",
+      "clean": "npm run clean:lib && npm run clean:nbextension",
+      "clean:lib": "rimraf lib",
+      "clean:labextension": "rimraf ipygoldenlayout/labextension",
+      "clean:nbextension": "rimraf ipygoldenlayout/nbextension/static/index.js",
+      "prepack": "npm run build:lib",
+      "test": "npm run test:firefox",
+      "test:chrome": "karma start --browsers=Chrome tests/karma.conf.js",
+      "test:debug": "karma start --browsers=Chrome --singleRun=false --debug=true tests/karma.conf.js",
+      "test:firefox": "karma start --browsers=Firefox tests/karma.conf.js",
+      "test:ie": "karma start --browsers=IE tests/karma.conf.js",
+      "watch": "npm-run-all -p watch:*",
+      "watch:lib": "tsc -w",
+      "watch:nbextension": "webpack --watch"
+    },
+    "dependencies": {
+      "@jupyter-widgets/base": "^1.1.10"
+    },
+    "devDependencies": {
+      "@phosphor/application": "^1.6.0",
+      "@phosphor/widgets": "^1.6.0",
+      "@types/expect.js": "^0.3.29",
+      "@types/mocha": "^5.2.5",
+      "@types/node": "^10.11.6",
+      "@types/webpack-env": "^1.13.6",
+      "expect.js": "^0.3.1",
+      "fs-extra": "^7.0.0",
+      "karma": "^3.0.0",
+      "karma-chrome-launcher": "^2.2.0",
+      "karma-firefox-launcher": "^1.1.0",
+      "karma-ie-launcher": "^1.0.0",
+      "karma-mocha": "^1.3.0",
+      "karma-mocha-reporter": "^2.2.5",
+      "karma-typescript": "^3.0.13",
+      "mkdirp": "^0.5.1",
+      "mocha": "^5.2.0",
+      "npm-run-all": "^4.1.3",
+      "rimraf": "^2.6.2",
+      "source-map-loader": "^0.2.4",
+      "ts-loader": "^5.2.1",
+      "typescript": "~3.1.2",
+      "webpack": "^4.20.2",
+      "webpack-cli": "^3.1.2"
+    },
+    "jupyterlab": {
+      "extension": "lib/plugin"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

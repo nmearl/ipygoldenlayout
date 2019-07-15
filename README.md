@@ -1,21 +1,29 @@
-ipygoldenlayout
-===============================
+
+# ipygoldenlayout
+
+[![Build Status](https://travis-ci.org/nmearl/ipygoldenlayout.svg?branch=master)](https://travis-ci.org/nmearl/ipygoldenlayout)
+[![codecov](https://codecov.io/gh/nmearl/ipygoldenlayout/branch/master/graph/badge.svg)](https://codecov.io/gh/nmearl/ipygoldenlayout)
+
 
 IPyWidget wrapper for the Golden Layout JavaScript package
 
-Installation
-------------
+## Installation
 
-To install use pip:
+You can install using `pip`:
 
-    $ pip install ipygoldenlayout
-    $ jupyter nbextension enable --py --sys-prefix ipygoldenlayout
+```bash
+pip install ipygoldenlayout
+```
 
+Or if you use jupyterlab:
 
-For a development installation (requires npm),
+```bash
+pip install ipygoldenlayout
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+```
 
-    $ git clone https://github.com/nmearl/ipygoldenlayout.git
-    $ cd ipygoldenlayout
-    $ pip install -e .
-    $ jupyter nbextension install --py --symlink --sys-prefix ipygoldenlayout
-    $ jupyter nbextension enable --py --sys-prefix ipygoldenlayout
+If you are using Jupyter Notebook 5.2 or earlier, you may also need to enable
+the nbextension:
+```bash
+jupyter nbextension enable --py [--sys-prefix|--user|--system] ipygoldenlayout
+```
