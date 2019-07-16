@@ -6,7 +6,7 @@
 
 import pytest
 
-from ..example import IPyGLWidget
+from ..widget import IPyGLWidget
 
 
 def test_example_creation_blank():

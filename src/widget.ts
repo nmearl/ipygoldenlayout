@@ -12,6 +12,10 @@ import {
 // import * as GoldenLayout from 'golden-layout';
 const GoldenLayout = require('golden-layout');
 
+import 'golden-layout/src/css/goldenlayout-base.css';
+import 'golden-layout/src/css/goldenlayout-light-theme.css';
+import './custom.css';
+
 
 export
 class IPyGLModel extends DOMWidgetModel {
@@ -30,7 +34,7 @@ class IPyGLModel extends DOMWidgetModel {
   static serializers: ISerializers = {
       ...DOMWidgetModel.serializers,
       // Add any extra serializers here
-    }
+  };
 
   static model_name = 'IPyGLModel';
   static model_module = MODULE_NAME;
@@ -43,8 +47,8 @@ class IPyGLModel extends DOMWidgetModel {
 
 export
 class IPyGLView extends DOMWidgetView {
-  private mountPoint: HTMLDivElement;
-  private myLayout: any;
+  private readonly mountPoint: HTMLDivElement;
+  private layout: any;
 
   constructor(...args: any[]) {
     super(...args);
@@ -53,35 +57,44 @@ class IPyGLView extends DOMWidgetView {
     this.mountPoint.setAttribute('id', 'ipygl-area');
 
     let config = {
+      dimensions: {
+        borderWidth: 5,
+        minItemHeight: 10,
+        minItemWidth: 10,
+        headerHeight: 20,
+        dragProxyWidth: 300,
+        dragProxyHeight: 200
+      },
       content: [{
         type: 'row',
         content: [{
           type:'component',
           componentName: 'example',
-          componentState: { text: 'Component 1' }
+          componentState: { text: 'Component 1' },
+          isClosable: true
         },
-          {
-            type:'component',
-            componentName: 'example',
-            componentState: { text: 'Component 2' }
-          }]
+        {
+          type:'component',
+          componentName: 'example',
+          componentState: { text: 'Component 2' },
+          isClosable: true
+        }]
       }]
     };
 
-    this.myLayout = new GoldenLayout( config, this.mountPoint );
+    this.layout = new GoldenLayout( config, this.mountPoint );
   }
 
   render() {
-    this.value_changed();
-    this.model.on('change:value', this.value_changed, this);
-
     this.el.appendChild(this.mountPoint);
+    // this.value_changed();
+    // this.model.on('change:value', this.value_changed, this);
 
-    this.myLayout.registerComponent( 'example', function( container: any, state: any ){
+    this.layout.registerComponent( 'example', function( container: any, state: any ){
       container.getElement().html( '<h2>' + state.text + '</h2>');
     });
 
-    this.myLayout.init();
+    this.layout.init();
   }
 
   value_changed() {

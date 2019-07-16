@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07fa7f82-8de4-4e7e-8576-92e71be962f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RELEASE.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/_static/embed-bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/_static/embed-bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/_static/embed-bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/_static/embed-bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/introduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/introduction.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ipygoldenlayout/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipygoldenlayout/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipygoldenlayout/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipygoldenlayout/_version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipygoldenlayout/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/embed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/extension.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/labplugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lib/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipygoldenlayout/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipygoldenlayout/widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipygoldenlayout/labextension/ipygoldenlayout-0.1.0.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/ipygoldenlayout/labextension/ipygoldenlayout-0.1.0.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipygoldenlayout/nbextension/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ipygoldenlayout/nbextension/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipygoldenlayout/nbextension/static/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ipygoldenlayout/nbextension/static/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipygoldenlayout/tests/test_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipygoldenlayout/tests/test_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widget.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widget.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widget.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widget.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widget.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,22 +52,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipygoldenlayout/example.py">
+        <entry file="file://$PROJECT_DIR$/ipygoldenlayout/widget.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/widget.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+            <state relative-caret-position="74">
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#92#178#0" expanded="true" />
+                <element signature="e#337#390#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#166#198#0" expanded="true" />
               </folding>
@@ -87,16 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/_version.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/plugin.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="370">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#92#155#0" expanded="true" />
@@ -107,10 +101,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ExampleWidget</find>
       <find>ExampleModel</find>
+      <find>p-Widget</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,19 +122,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/lib/main.js" />
-        <option value="$PROJECT_DIR$/ipygoldenlayout/example.py" />
-        <option value="$PROJECT_DIR$/src/widget.ts" />
         <option value="$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/example.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/ipygoldenlayout.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/ipygoldenlayout/example.py" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/custom.css" />
+        <option value="$PROJECT_DIR$/src/widget.ts" />
       </list>
     </option>
   </component>
@@ -157,48 +151,7 @@
             <path>
               <item name="ipygoldenlayout" type="b2602c69:ProjectViewProjectNode" />
               <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ipygoldenlayout" type="b2602c69:ProjectViewProjectNode" />
               <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ipygoldenlayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ipygoldenlayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="nbextension" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ipygoldenlayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="nbextension" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ipygoldenlayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="nbextension" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ipygoldenlayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ipygoldenlayout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ipygoldenlayout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,6 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -236,25 +190,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563200453974</updated>
-      <workItem from="1563200458448" duration="5926000" />
+      <workItem from="1563200458448" duration="9724000" />
     </task>
+    <task id="LOCAL-00001" summary="Implement TS version of ipywidget">
+      <created>1563228412270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563228412270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5926000" />
+    <option name="totallyTimeSpent" value="9724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15445666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15445666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.24489796" />
+      <window_info anchor="bottom" id="Terminal" weight="0.24489796" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -272,6 +235,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement TS version of ipywidget" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement TS version of ipywidget" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/webpack.config.js">
@@ -326,14 +293,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.ts">
+    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/nbextension/static/extension.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#92#155#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/_frontend.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/_version.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/nbextension/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -356,73 +363,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/example.py">
+    <entry file="file://$PROJECT_DIR$/src/plugin.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/nbextension/static/extension.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="370">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#92#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/widget.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/golden-layout/src/css/default-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#92#178#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widget.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#166#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/nbextension/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/widget.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="74">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#92#178#0" expanded="true" />
+            <element signature="e#337#390#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/_frontend.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipygoldenlayout/ipygoldenlayout/_version.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

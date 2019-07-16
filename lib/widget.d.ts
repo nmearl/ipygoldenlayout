@@ -1,4 +1,7 @@
 import { DOMWidgetModel, DOMWidgetView, ISerializers } from '@jupyter-widgets/base';
+import 'golden-layout/src/css/goldenlayout-base.css';
+import 'golden-layout/src/css/goldenlayout-light-theme.css';
+import './custom.css';
 export declare class IPyGLModel extends DOMWidgetModel {
     defaults(): any;
     static serializers: ISerializers;
@@ -10,7 +13,7 @@ export declare class IPyGLModel extends DOMWidgetModel {
     static view_module_version: any;
 }
 export declare class IPyGLView extends DOMWidgetView {
-    private mountPoint;
+    private readonly mountPoint;
     private myLayout;
     constructor(...args: any[]);
     render(): void;
