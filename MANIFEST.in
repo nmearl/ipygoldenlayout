@@ -1,0 +1,2 @@
+recursive-include ipygoldenlayout/static *.*
+include jupyter-golden-layout.json
