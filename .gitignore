@@ -10,3 +10,5 @@ ipygoldenlayout/static/
 
 # OS X
 .DS_Store
+.idea
+.vscode
