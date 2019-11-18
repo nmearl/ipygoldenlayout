@@ -1,6 +1,6 @@
 {
   "name": "jupyter-golden-layout",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "IPyWidgets implementation of GoldenLayout JS package",
   "author": "Nicholas Earl",
   "main": "lib/index.js",
