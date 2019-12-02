@@ -9,7 +9,7 @@ class GoldenLayout(widgets.DOMWidget):
     """An example widget."""
     _model_name = Unicode('GoldenLayoutModel').tag(sync=True)
     _model_module = Unicode('jupyter-golden-layout').tag(sync=True)
-    _model_module_version = Unicode('^0.2.0').tag(sync=True)
+    _model_module_version = Unicode('^0.2.1').tag(sync=True)
 
     group = Dict().tag(sync=True)
     tag = Unicode().tag(sync=True)
