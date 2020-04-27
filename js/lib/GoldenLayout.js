@@ -8,8 +8,8 @@ export class GoldenLayoutModel extends VueModel {
             ...{
                 _model_name: 'GoldenLayoutModel',
                 _model_module: 'jupyter-golden-layout',
-                _view_module_version: '0.2.0',
-                _model_module_version: '0.2.0',
+                _view_module_version: '0.3.0',
+                _model_module_version: '0.3.0',
                 group: null,
                 tag: null,
                 component_data: null,
