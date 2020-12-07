@@ -6,7 +6,8 @@ build/
 node_modules/
 
 # Compiled javascript
-ipygoldenlayout/static/
+ipygoldenlayout/labextension/
+ipygoldenlayout/nbextension/
 
 # OS X
 .DS_Store
