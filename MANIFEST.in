@@ -1,2 +1,3 @@
-recursive-include ipygoldenlayout/static *.*
+recursive-include ipygoldenlayout/nbextension *.*
+recursive-include ipygoldenlayout/labextension *.*
 include jupyter-golden-layout.json
