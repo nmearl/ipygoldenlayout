@@ -153,7 +153,7 @@ setup_args = {
     },
 
     'author': 'Nicholas Earl',
-    'author_email': 'nearl@stsci.edu',
+    'author_email': 'contact@nicholasearl.me',
     'url': 'https://github.com/nmearl/ipygoldenlayout',
     'keywords': [
         'ipython',
